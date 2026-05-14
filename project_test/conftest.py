@@ -1,5 +1,4 @@
 import pytest
-from requests import options
 from selenium import webdriver
 
 
