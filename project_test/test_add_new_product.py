@@ -7,7 +7,7 @@ from pages.home_page import HomePage
 
 
 # usefixtures diz ao pytest para executar a fixture "setup_teardown"
-# antes e depois dos testes desta classe.
+# antes e depois dos testes desta classe
 @pytest.mark.usefixtures("setup_teardown")
 @pytest.mark.add_product  # Marca o teste para execução seletiva.
 class TestCT03AddProduct:
