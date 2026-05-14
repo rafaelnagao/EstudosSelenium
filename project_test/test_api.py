@@ -1,6 +1,8 @@
 # arquivo: test_fake_store_api.py
-
+import pytest
 import requests
+
+pytestmark = pytest.mark.api
 
 # URL base da Fake Store API
 BASE_URL = "https://fakestoreapi.com"
